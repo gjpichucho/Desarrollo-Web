@@ -10,8 +10,8 @@
 	<title>Ejercicio 1</title>
 </head>
 <body>
-	<h1>Universidad de las Fuerzas Armadas Espe</h1>
-	<h2>Grupo: Pichucho Galo - Rivera Santiago - Vivas Santiago</h2>
+    <h1 align="center">Universidad de las Fuerzas Armadas Espe</h1>
+	<h2>Integrantes: Pichucho Galo - Rivera Santiago - Vivas Santiago</h2>
 	<h3>Resultado Ejercicio 1</h3>
 	<?php
     for ($i=0; $i<=20;$i++){

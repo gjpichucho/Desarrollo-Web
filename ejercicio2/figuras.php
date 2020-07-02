@@ -6,11 +6,11 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Ejercicio 1</title>
+	<title>Ejercicio 2</title>
 </head>
 <body>
-	<h1>Universidad de las Fuerzas Armadas Espe</h1>
-	<h2>Grupo: Pichucho Galo - Rivera Santiago - Vivas Santiago</h2>
+    <h1 align="center">Universidad de las Fuerzas Armadas Espe</h1>
+	<h2>Integrantes: Pichucho Galo - Rivera Santiago - Vivas Santiago</h2>
 	<h3>Ejercicio 2</h3>
 
     <form name="forma" method="POST" action="./resultado.php">
