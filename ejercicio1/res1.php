@@ -24,7 +24,7 @@
     ?>
 
     <a href="./ej1.php">Regresar</a> <br>
-    <a href="./index.html">Menu Principal</a>
+    <a href="../index.html">Menu Principal</a>
 	
 </body>
 </html>

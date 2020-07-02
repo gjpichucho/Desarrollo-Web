@@ -17,6 +17,6 @@ y cuyo resultado sea la impresión de la tabla de multiplicar hasta el 20.</p>
 		<input type="submit" value="Enviar">
 
 	</form>
- <a href="./index.html">Regresar</a>
+ <a href="../index.html">Regresar</a>
 </body>
 </html>
