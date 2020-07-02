@@ -16,10 +16,7 @@
 	<?php
     for ($i=0; $i<=20;$i++){
         $res= $num * $i;
-        ?>
-        <?php echo $num ?> * <?php echo $i ?> = <?php echo $res ?>
-        <br>
-    <?php
+        echo "$num * $i = $res <br>";
     }
     ?>
 
