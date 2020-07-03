@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(65, 112, 150, 0.541);
+}
+
+.form-style, .menu-style {
+  width: 500px;
+  background: #24303c;
+  padding: 30px;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 4px;
+  font-family: 'calibri';
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+}
+
+.form-style h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.controls {
+  width: 100%;
+  background: #24303c;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #1f53c5;
+  font-family: 'calibri';
+  font-size: 18px;
+  color: white;
+}
+
+.form-style p {
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.form-style a {
+  color: white;
+  text-decoration: none;
+}
+
+.body-style a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.body-style .botons {
+  width: 100%;
+  background: #1f53c5;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px;
+}
+
+.title{
+  padding-top: 2.5%;
+  text-align: center;
+  padding: 2.5%;
+}
+
+.principal-menu h2, h3{
+  text-align: center;
+}
+.principal-menu a, .menu-figuras a{
+  font-size: 20px;
+  color: #000;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 10px 20px 10px 0px;
+  background-color: #1f53c5;
+  display: inline-block;
+}
+.menu-figuras a{
+  padding: 0px 5px;
+}
+
+.menu-figuras radio{
+  text-align: center;
+}
+
+.text-center{
+  text-align: center;
+}
+.principal-menu a:link{
+  font-size: 20px;
+  color: #000;
+  text-decoration: none;
+  margin: 10px 20px 10px 0px;
+}
+
+.title p{
+  font-size: 20px;
+}
+
+.btn {
+  width: 100%;
+  background: #1f53c5;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px;
+  align-content: center;
+}
+
+.center{
+  margin-left: 60;
+  font-size: 20px;
+}
+.resul2{
+  margin-left: 150px;
+}
+.form-style label{
+  font-size: 20px;
+
+}

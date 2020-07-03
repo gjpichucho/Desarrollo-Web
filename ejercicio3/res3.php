@@ -71,21 +71,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="../styles/style.css">
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Ejercicio 3</title>
 </head>
 <body>
-	<h1 align="center">Universidad de las Fuerzas Armadas Espe</h1>
+    <div class = "title">
+	<h1>Universidad de las Fuerzas Armadas Espe</h1>
 	<h2>Integrantes: Pichucho Galo - Rivera Santiago - Vivas Santiago</h2>
+	<h3>Ejercicio 3</h3>
+	</div>
+
+    <div class="form-style">
     <?php
         echo "Fecha Actual: " .$fec_actual."<br>";
         echo "Fecha de Nacimiento: " .$fec_nac."<br>";
         echo "La edad de la persona es: " .$edad." años con ".$mes." meses y ".$dia." días<br>";
     ?>
+    <p><a href="./ej3.php">Regresar</a> <br></p>
+    <p><a href="../index.html">Menu Principal</a></p>
+    </div>
 
-    <a href="./ej3.php">Regresar</a> <br>
-    <a href="../index.html">Menu Principal</a>
-	
 </body>
 </html>
