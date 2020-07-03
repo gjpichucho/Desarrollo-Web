@@ -14,6 +14,59 @@
         $anio_actual=($anio_actual-1);
     }
     $edad=($anio_actual-$annio_fec_nac);
+    if($mes_actual >= $mes_fec_nac){
+        $mes = $mes_actual - $mes_fec_nac;
+        if($dia_fec_nac > $dia_actual){
+            $mes = $mes - 1;
+        }
+    }else{
+        $mes=11-($mes_fec_nac-$mes_actual);
+        if($dia_actual == $dia_fec_nac){
+            $mes = $mes + 1;
+        }
+    }
+    if($dia_actual >= $dia_fec_nac){
+        $dia = $dia_actual - $dia_fec_nac;
+    }else{
+        switch ($mes_fec_nac) {
+            case 1:  
+                $dia = 31 - $dia_fec_nac + $dia_actual;
+            break;
+            case 2:     
+                $dia = 28 - $dia_fec_nac + $dia_actual;
+            break;
+            case 3: 
+                $dia = 31 - $dia_fec_nac + $dia_actual;
+            break;
+            case 4:     
+                $dia = 30 - $dia_fec_nac + $dia_actual;
+            break;
+            case 5:
+                $dia = 31 - $dia_fec_nac + $dia_actual;
+            break;
+            case 6:     
+                $dia = 30 - $dia_fec_nac + $dia_actual;
+            break;
+            case 7:     
+                $dia = 31 - $dia_fec_nac + $dia_actual;
+            break;
+            case 8:     
+                $dia = 31 - $dia_fec_nac + $dia_actual;
+            break;
+            case 9:     
+                $dia = 30 - $dia_fec_nac + $dia_actual;
+            break;
+            case 10:
+                $dia = 31 - $dia_fec_nac + $dia_actual;
+            break;
+            case 11:
+                $dia = 30 - $dia_fec_nac + $dia_actual;
+            break;
+            case 12:
+                $dia = 31 - $dia_fec_nac + $dia_actual;
+            break;
+        }
+    }
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -28,7 +81,7 @@
     <?php
         echo "Fecha Actual: " .$fec_actual."<br>";
         echo "Fecha de Nacimiento: " .$fec_nac."<br>";
-        echo "La edad de la persona es: " .$edad." años<br>";
+        echo "La edad de la persona es: " .$edad." años con ".$mes." meses y ".$dia." días<br>";
     ?>
 
     <a href="./ej3.php">Regresar</a> <br>
